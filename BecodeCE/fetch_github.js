@@ -1,8 +1,8 @@
 const fetch = require("node-fetch");
 //const regex_serge = /.*(\d\d\/\d\d\/\d{4} : )(?<moi>.*)/gm;
 regex_date = /\d\d\/\d\d\/\d{4}/;
-regex_nom = /"(.*?)"/;
 regex_sujet = /"(.*?)"/;
+regex_nom = /\*\*(.*?)\*\*/;
 let agenda = new Array();
  
 
