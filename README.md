@@ -9,7 +9,9 @@ Ensuite, vous aurez deux choix.
 
 ## Les ressources utilisées
 [developer.chrome.com](https://developer.chrome.com/extensions/getstarted)
+
 [Openclassrooms](https://openclassrooms.com/fr/courses/1408416-extensions-pour-chrome/1408593-une-premiere-extension)
+
 [a simple 'Hello World' boilerplate](https://github.com/gitfaf/hello-world-chrome-extension)
 
 ## L'extension "BecodeCE"
