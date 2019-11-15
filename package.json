@@ -1,0 +1,17 @@
+{
+  "name": "BecodeChromeExtension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetch_github.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "regex": "^0.1.1",
+    "showdown": "^1.9.1"
+  }
+}
