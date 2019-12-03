@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="chrome-and-becode.png">
+</p>
+
 # Sneak peek
 
 Manage your favorite links, be aware of upcoming watches, be notified if there are none and have the ability to add one.
@@ -11,8 +15,8 @@ How do we get this thorn out of our feet?
 ## "BecodeCE", our upcoming chrome extension.
 
 The purpose of this extension is to gather all the resources useful to our life at Becode.
-But the real challenge is to allow it to check the ".md" agenda of our watches, to display the watches of the day and to warn us if the next slot is empty. 
-In which case: **ALERT**
+
+But the real challenge is to allow it to check the ".md" agenda of our watches, to display the watches of the day and to warn us if the next slot is empty. In which case: **ALERT**
 
 How are we going to do that? 
 
