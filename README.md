@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="chrome-and-becode.png">
+  <img src="chrome-and-becode.png" style="width:40%;height:40%;>
 </p>
 
 # Sneak peek
