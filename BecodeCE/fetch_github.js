@@ -18,7 +18,7 @@ function isEmpty(str) {
 // https://raw.githubusercontent.com/becodeorg/The-Watch/master/LIE-Hamilton-2.12/agenda.md?token=ALHFZ...  
 // In this case, the token would be "ALHFZ...""
 
-let myToken = "AMECOCDGZAUNMP7EDCV2RWK555ODC";
+let myToken = "";
 
 const request = async () => {
   const response = await fetch(
