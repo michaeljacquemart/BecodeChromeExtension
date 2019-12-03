@@ -16,7 +16,8 @@ How do we get this thorn out of our feet?
 
 The purpose of this extension is to gather all the resources useful to our life at Becode.
 
-But the real challenge is to allow it to check the ".md" agenda of our watches, to display the watches of the day and to warn us if the next slot is empty. In which case: **ALERT**
+But the real challenge is to allow it to check the ".md" agenda of our watches, to display the watches of the day and to warn us if the next slot is empty. 
+In which case: :sos: **ALERT** :sos:
 
 How are we going to do that? 
 
@@ -31,6 +32,11 @@ Also, the following command will return the watch of the day :
 ```
 $ node fetch_github.js
 ```
+Finally, we've added a bit of CSS, to make it easier to develop the functionalities.
+Look at it, it's dreadful. 
+"margin-left" in px and all. I know.
+
+Rest assured, a SASS master will eventually reveal himself among the Becodians.
 
 ## What should we do now ?
 
