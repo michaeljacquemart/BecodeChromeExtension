@@ -3,6 +3,9 @@
     <head>
         <title>Becode manager</title>
         <link rel="stylesheet" href="style.css">
+        <!-- data-main attribute tells require.js to load
+             scripts/main.js after require.js loads. -->
+        <script type="module" data-main="fetch_github.js" src="require.js"></script>
     </head>
     <body>
         <img class="header" src="logo_header.png" alt="Becode, powered by Simplon">
@@ -14,7 +17,14 @@
 					<a href="https://github.com/becodeorg" target="_blank">Github</a>
 					<a href="https://github.com/becodeorg/The-Watch" target="_blank">The watch</a>
 				</nav>
-		</section>
-
+        </section>
+<!--         
+        <div class="watch_infos">
+            <p><strong>Today</strong></p>
+            <p>Title : <span id="watch_title"></span></p>
+            <p>Author : <span id="watch_author"></span></p>
+        </div> 
+-->
     </body>
+    
 </html>
