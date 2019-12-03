@@ -1,24 +1,41 @@
-# BecodeChromeExtension
-Workshop on creating a chrome extension and applying what we learned to develop a Becode extension
+<p align="center">
+  <img src="chrome-and-becode.png" style="width:40%;height:40%;">
+</p>
 
-## Organisation du workshop
-Je vous propose de d'abord découvrir les ressources ci-dessous et d'essayer d'implémenter et de jouer avec celle qui vous convient.
-Ensuite, vous aurez deux choix.
-- créer votre propre extension (projet personnel)
-- continuer à améliorer l'extension Becode liée à ce repo (projet de groupe) 
+# Sneak peek
 
-## Les ressources utilisées
-[developer.chrome.com](https://developer.chrome.com/extensions/getstarted)
+Manage your favorite links, be aware of upcoming watches, be notified if there are none and have the ability to add one.
 
-[Openclassrooms](https://openclassrooms.com/fr/courses/1408416-extensions-pour-chrome/1408593-une-premiere-extension)
+## The problematic
 
-[a simple 'Hello World' boilerplate](https://github.com/gitfaf/hello-world-chrome-extension)
+It's hard to know what other Becode groups are going through, but if your way of managing watches was the same as ours, you're dealing with a real pain in the ass.
 
-## L'extension "BecodeCE"
+How do we get this thorn out of our feet?
 
-Le but de cette extension est de réunir toutes les ressources utiles à notre vie chez Becode.
-Mais le vrai challenge, c'est de lui permettre d'aller checker l'agenda.md de nos veilles, de nous indiquer les veilles de la journée et de nous prévenir si le prochain slot horaire n'est pas occupé. 
-Auquel cas : **ALERTE**
+## "BecodeCE", our upcoming chrome extension.
 
-Comment qu'on va faire ? 
-Excellente question. 
+The purpose of this extension is to gather all the resources useful to our life at Becode.
+
+But the real challenge is to allow it to check the ".md" agenda of our watches, to display the watches of the day and to warn us if the next slot is empty. In which case: **ALERT**
+
+How are we going to do that? 
+
+That's your problem now !
+
+*But here is what we already did ;*
+
+For now, the fetch of the "agenda.md" is done with "node-fetch", by placing your personal token in a "myToken" variable (defined in fetch_github.js).
+All this is temporary, we will receive a beautiful Becode GraphQL API that will allow us to receive the calendars in a **much much** cleaner way.
+
+Also, the following command will return the watch of the day :
+```
+$ node fetch_github.js
+```
+
+## What should we do now ?
+
+This extension will no longer be worked on by the Hamilton 2-12 group. It is now up to other groups to develop, improve and transform it in the way they want.
+
+I invite you to collaborate on this project **"made in Becode"** and to push it as far as possible. The following groups will take over.
+
+*"Unity makes strength"* is the motto.
