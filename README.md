@@ -56,9 +56,7 @@ Your extension manager should look like this now.
 </p>
 
 Look, you now have a new tool !
-<p align="center">
-  <img src="assets/BecodeCE_link.png" style="width:40%;height:40%;">
-</p>
+
 <p align="center">
   <img src="assets/BecodeCE_open.png" style="width:40%;height:40%;">
 </p>
