@@ -49,13 +49,14 @@ You should arrive on a page looking like this (below).
   <img src="assets/extensions_panel.png" style="width:40%;height:40%;">
 </p>
 
-Then, click on "Load unpacked", search through your files for this repo (that you cloned beforehand !) et open the BecodeCE folder.
+Then, click on "Load unpacked", search through your files for this repo (that you cloned beforehand !) and open the BecodeCE folder.
 Your extension manager should look like this now.
 <p align="center">
   <img src="assets/extensions_panel2.png" style="width:40%;height:40%;">
 </p>
 
-Look, you now have a new tool !
+
+**And look, you now have a new tool !** 
 
 <p align="center">
   <img src="assets/BecodeCE_open.png" style="width:40%;height:40%;">
